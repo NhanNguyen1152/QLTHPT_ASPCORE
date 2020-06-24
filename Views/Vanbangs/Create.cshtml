@@ -1,0 +1,43 @@
+@model QLTHPT.Models.Vanbang
+
+@{
+    ViewData["Title"] = "Create";
+}
+@{
+    ViewData["Title"] = "Create";
+}
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sparkline13-list shadow-reset">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd">
+                            <h4><strong>Tạo Mới</strong></h4>
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group"  style="text-align: left;">
+                            <label asp-for="VbMa" class="control-label">Mã</label>
+                            <input asp-for="VbMa" class="form-control" />
+                            <span asp-validation-for="VbMa" class="text-danger"></span>
+                        </div>
+                        <div class="form-group"  style="text-align: left;">
+                            <label asp-for="VbTen" class="control-label">Tên</label>
+                            <input asp-for="VbTen" class="form-control" />
+                            <span asp-validation-for="VbTen" class="text-danger"></span>
+                        </div>
+                        <div class="form-group" style="text-align: left;">
+                            <input type="submit" value="Tạo" class="btn btn-default"/> |
+                            <a asp-action="Index"class=" btn btn-custon-rounded-three btn-primary"><i class="fa fa-undo"></i></a>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+

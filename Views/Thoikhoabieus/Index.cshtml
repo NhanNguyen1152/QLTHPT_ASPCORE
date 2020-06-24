@@ -1,0 +1,155 @@
+@model IEnumerable<QLTHPT.Models.Thoikhoabieu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sparkline13-list shadow-reset">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd">
+                            <h4><strong>THỨ</strong></h4>
+
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph">
+                        <div class="datatable-dashv1-list custom-datatable-overright">
+                            <div id="toolbar">
+                                <strong>@Html.ActionLink("Tạo Mới", "Create")</strong>
+                            </div>
+                            <table id="table" data-resizable="false" data-toggle="table" data-pagination="true" data-search="true" data-cookie="true" data-cookie-id-table="saveId" data-click-to-select="true" data-toolbar="#toolbar">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Mã
+                                        </th>
+                                        <th>
+                                            Cán Bộ
+                                        </th>
+                                        <th>
+                                            Học kỳ
+                                        </th>
+                                        <th>
+                                            Lớp
+                                        </th>
+                                        <th>
+                                            Môn học
+                                        </th>
+                                        <th>
+                                            Thứ
+                                        </th>
+                                        <th>
+                                            Tiết học
+                                        </th>
+                                        <th data-width="150px"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.TkbMa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CanboCbMaNavigation.CbMa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.HockyHkMaNavigation.HkMa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.LopLopMaNavigation.LopMa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.MonhocMhMaNavigation.MhMa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.ThuThuMaNavigation.ThuMa)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.TiethocThMaNavigation.ThMa)
+                                            </td>
+                                            <td>
+                                                <a asp-action="Details" asp-route-id="@item.TkbMa" class="btn btn-custon-rounded-three btn-success"><i class="fa fa-info-circle"></i></a> 
+                                                <a asp-action="Edit" asp-route-id="@item.TkbMa" class="btn btn-custon-rounded-three btn-warning"><i class="fa fa-edit"></i></a> 
+                                                <a asp-action="Delete" asp-route-id="@item.TkbMa" class="btn btn-custon-rounded-three btn-danger"><i class="fa fa-trash"></i></a>                                           
+                                            </td>
+                                        </tr>
+                                    }
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* 
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CanboCbMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HockyHkMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LopLopMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MonhocMhMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThuThuMaNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TiethocThMaNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CanboCbMaNavigation.CbMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HockyHkMaNavigation.HkMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LopLopMaNavigation.LopMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonhocMhMaNavigation.MhMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThuThuMaNavigation.ThuMa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TiethocThMaNavigation.ThMa)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TkbMa">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TkbMa">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TkbMa">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table> *@
