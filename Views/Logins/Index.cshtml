@@ -1,6 +1,25 @@
-@model IEnumerable<QLTHPT.Models.Login>
+ @model IEnumerable<QLTHPT.Models.Login>
 
 @{
     ViewData["Title"] = "Index";
     Layout="~/Views/Shared/_LayoutLogin.cshtml";
 }
+  @* <div class="col-md-4">
+        <form asp-action="Login" asp-controller="Logins" method="POST">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+              <div class="form-group">
+               <input class="input100" type="text" name="UserName">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Username</span>
+            </div>
+            <div class="form-group">
+                <input class="input100" type="password" name="PassWord">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Password</span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>  *@

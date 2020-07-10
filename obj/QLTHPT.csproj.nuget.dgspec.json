@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "e:\\New folder (2)\\QLTHPT.csproj": {}
+    "D:\\QLTHPT_ASPCORE\\QLTHPT.csproj": {}
   },
   "projects": {
-    "e:\\New folder (2)\\QLTHPT.csproj": {
+    "D:\\QLTHPT_ASPCORE\\QLTHPT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\New folder (2)\\QLTHPT.csproj",
+        "projectUniqueName": "D:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
         "projectName": "QLTHPT",
-        "projectPath": "e:\\New folder (2)\\QLTHPT.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "e:\\New folder (2)\\obj\\",
+        "projectPath": "D:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "D:\\QLTHPT_ASPCORE\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "Microsoft.AspNetCore.Session": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -72,6 +73,10 @@
             "Microsoft.Extensions.Caching.Memory": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.0-preview1.19506.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
