@@ -1,0 +1,22 @@
+@model QLTHPT.Models.Thoikhoabieu
+
+@{
+    ViewData["Title"] = "Print";
+}
+
+<html>
+<head>
+	<link href="~/mystyle.css" rel="stylesheet" />
+</head>
+
+<body onload="window.print()">
+	<div class="book">
+    <div class="page">
+        <div class="subpage">
+            @Model.LopLopMa
+        </div>    
+    </div>
+    
+</div>
+</body>
+</html>
