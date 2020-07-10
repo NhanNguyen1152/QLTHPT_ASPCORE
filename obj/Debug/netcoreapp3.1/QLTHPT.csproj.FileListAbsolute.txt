@@ -886,7 +886,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
@@ -947,7 +946,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\QLTHPT.csprojAssemblyReference.cache
 D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\staticwebassets\QLTHPT.StaticWebAssets.Manifest.cache
@@ -1174,7 +1172,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\Microsoft.Net.Http.Headers.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.Core.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\Microsoft.VisualBasic.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Primitives.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\mscorlib.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\netstandard.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.AppContext.dll
@@ -1197,7 +1194,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Data.DataSetExtensions.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Data.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.StackTrace.dll
@@ -1223,7 +1219,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Primitives.d
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.FileSystem.Watcher.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.IsolatedStorage.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.MemoryMappedFiles.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.Pipes.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.IO.UnmanagedMemoryStream.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Linq.dll
@@ -1279,19 +1274,14 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Form
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Json.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Primitives.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Runtime.Serialization.Xml.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Claims.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Algorithms.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Csp.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Encoding.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Primitives.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.X509Certificates.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Security.SecureString.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.ServiceModel.Web.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.ServiceProcess.dll
@@ -1316,7 +1306,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.ValueTuple.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Web.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Web.HttpUtility.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Windows.dll
-D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Xml.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Xml.Linq.dll
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\refs\System.Xml.ReaderWriter.dll
@@ -1333,3 +1322,6 @@ D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.d
 D:\QLTHPT_ASPCORE\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\QLTHPT.MvcApplicationPartsAssemblyInfo.cs
 D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\Razor\Login.cshtml.g.cs
+D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\QLTHPT.csproj.CoreCompileInputs.cache
+D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\Razor\Views\Thoikhoabieus\Print.cshtml.g.cs
+D:\QLTHPT_ASPCORE\obj\Debug\netcoreapp3.1\QLTHPT.genruntimeconfig.cache

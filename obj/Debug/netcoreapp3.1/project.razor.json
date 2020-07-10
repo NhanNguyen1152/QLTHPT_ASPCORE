@@ -20871,6 +20871,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\QLTHPT_ASPCORE\\Views\\Thoikhoabieus\\Print.cshtml",
+      "TargetPath": "Views\\Thoikhoabieus\\Print.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\QLTHPT_ASPCORE\\Views\\Tiethocs\\Create.cshtml",
       "TargetPath": "Views\\Tiethocs\\Create.cshtml",
       "FileKind": "mvc"
