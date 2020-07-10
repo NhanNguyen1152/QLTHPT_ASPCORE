@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\New folder (2)\\QLTHPT.csproj": {}
+    "e:\\QLTHPT_ASPCORE\\QLTHPT.csproj": {}
   },
   "projects": {
-    "e:\\New folder (2)\\QLTHPT.csproj": {
+    "e:\\QLTHPT_ASPCORE\\QLTHPT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\New folder (2)\\QLTHPT.csproj",
+        "projectUniqueName": "e:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
         "projectName": "QLTHPT",
-        "projectPath": "e:\\New folder (2)\\QLTHPT.csproj",
+        "projectPath": "e:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "e:\\New folder (2)\\obj\\",
+        "outputPath": "e:\\QLTHPT_ASPCORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

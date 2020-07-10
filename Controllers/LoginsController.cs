@@ -94,10 +94,10 @@ namespace QLTHPT.Controllers
             if(chucvu != null){
                 HttpContext.Session.SetString("User", login.UserName);
                 
-                return RedirectToAction("Index", "Home", new { area = "Admin"});
+                return RedirectToAction("Index", "Home");
             }
             else{
-                 return RedirectToAction("Index", "Logins", new { area = "Admin1"});
+                 return RedirectToAction("Index", "Logins");
             }
         }
 
