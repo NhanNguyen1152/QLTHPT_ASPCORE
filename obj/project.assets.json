@@ -7868,27 +7868,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chi\\.nuget\\packages\\": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "e:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
-      "projectName": "QLTHPT",
-      "projectPath": "e:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "e:\\QLTHPT_ASPCORE\\obj\\",
-=======
       "projectUniqueName": "d:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
       "projectName": "QLTHPT",
       "projectPath": "d:\\QLTHPT_ASPCORE\\QLTHPT.csproj",
-      "packagesPath": "C:\\Users\\chi\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
       "outputPath": "d:\\QLTHPT_ASPCORE\\obj\\",
->>>>>>> 87ea498c7a298327f4b810cdbb2cb941d60cd479
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7975,7 +7967,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

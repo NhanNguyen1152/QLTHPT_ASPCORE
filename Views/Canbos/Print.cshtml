@@ -1,0 +1,45 @@
+@model QLTHPT.Models.Canbo
+
+@{
+    ViewData["Title"] = "Print";
+    Layout = null;
+}
+
+<html>
+<head>
+	<link href="~/mystyle.css" rel="stylesheet" />
+</head>
+<style>
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        }
+    p{
+        margin-top: 10%;
+    }
+    .imgcontainer {
+      text-align: center;
+      margin-top: 10px;
+      margin: 24px;
+      width: 100%;
+        }
+</style>
+
+<body onload="window.print()">
+	<div class="book">
+        <div class="page">
+            <div class="subpage">
+                <h2>THÔNG TIN CÁN BỘ</h2>
+                <div class="imgcontainer">
+                    <img src="~/img/edit1.jpg" alt="">
+                </div>
+                <p>Mã cán bộ: @Model.CbMa | Họ và tên: @Model.CbHoten</p>
+                <p>Giới tính: @Model.CbGioitinh</p>
+                <p>Địa chỉ: @Model.CbDiachi</p>
+                <p>CMND: @Model.CbCmnd</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

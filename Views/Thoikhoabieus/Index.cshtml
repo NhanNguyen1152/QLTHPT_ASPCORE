@@ -11,8 +11,7 @@
                 <div class="sparkline13-list shadow-reset">
                     <div class="sparkline13-hd">
                         <div class="main-sparkline13-hd">
-                            <h4><strong>THỨ</strong></h4>
-
+                            <h4><strong>THỜI KHÓA BIỂU</strong></h4>
                         </div>
                     </div>
                     <div class="sparkline13-graph">
@@ -23,16 +22,16 @@
                             <table id="table" data-resizable="false" data-toggle="table" data-pagination="true" data-search="true" data-cookie="true" data-cookie-id-table="saveId" data-click-to-select="true" data-toolbar="#toolbar">
                                 <thead>
                                     <tr>
-                                        <th>
+                                        <th data-width="100px">
                                             Mã
                                         </th>
-                                        <th>
+                                        <th data-width="150px">
                                             Cán Bộ
                                         </th>
                                         <th>
                                             Học kỳ
                                         </th>
-                                        <th>
+                                        <th data-width="100px">
                                             Lớp
                                         </th>
                                         <th>
@@ -44,7 +43,7 @@
                                         <th>
                                             Tiết học
                                         </th>
-                                        <th data-width="150px"></th>
+                                        <th data-width="200px"></th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -56,22 +55,22 @@
                                                 @Html.DisplayFor(modelItem => item.TkbMa)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.CanboCbMaNavigation.CbMa)
+                                                @Html.DisplayFor(modelItem => item.CanboCbMaNavigation.CbHoten)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.HockyHkMaNavigation.HkMa)
+                                                @Html.DisplayFor(modelItem => item.HockyHkMaNavigation.HkTen)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.LopLopMaNavigation.LopMa)
+                                                @Html.DisplayFor(modelItem => item.LopLopMaNavigation.LopTen)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.MonhocMhMaNavigation.MhMa)
+                                                @Html.DisplayFor(modelItem => item.MonhocMhMaNavigation.MhTen)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.ThuThuMaNavigation.ThuMa)
+                                                @Html.DisplayFor(modelItem => item.ThuThuMaNavigation.ThuTen)
                                             </td>
                                             <td>
-                                                @Html.DisplayFor(modelItem => item.TiethocThMaNavigation.ThMa)
+                                                @Html.DisplayFor(modelItem => item.TiethocThMaNavigation.ThTen)
                                             </td>
                                             <td>
                                                 <a asp-action="Details" asp-route-id="@item.TkbMa" class="btn btn-custon-rounded-three btn-success"><i class="fa fa-info-circle"></i></a> 

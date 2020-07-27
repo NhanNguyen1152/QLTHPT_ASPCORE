@@ -19,13 +19,14 @@ body {
     margin: 10mm auto;
     border: 1px #D3D3D3 solid;
     border-radius: 5px;
-    background: white;
+    background: blue;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .subpage {
+    background: white;
     padding: 1cm;
-    border: 5px red solid;
+    border: 5px orange solid;
     height: 257mm;
     outline: 2cm #FFEAEA solid;
 }

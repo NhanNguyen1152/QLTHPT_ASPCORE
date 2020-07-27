@@ -1,0 +1,66 @@
+@model QLTHPT.Models.Canbo
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Canbo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CbMa" />
+            <div class="form-group">
+                <label asp-for="CbHoten" class="control-label"></label>
+                <input asp-for="CbHoten" class="form-control" />
+                <span asp-validation-for="CbHoten" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CbGioitinh" class="control-label"></label>
+                <input asp-for="CbGioitinh" class="form-control" />
+                <span asp-validation-for="CbGioitinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CbDiachi" class="control-label"></label>
+                <input asp-for="CbDiachi" class="form-control" />
+                <span asp-validation-for="CbDiachi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CbNgaysinh" class="control-label"></label>
+                <input asp-for="CbNgaysinh" class="form-control" />
+                <span asp-validation-for="CbNgaysinh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CbCmnd" class="control-label"></label>
+                <input asp-for="CbCmnd" class="form-control" />
+                <span asp-validation-for="CbCmnd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CoquanCqMa" class="control-label"></label>
+                <select asp-for="CoquanCqMa" class="form-control" asp-items="ViewBag.CoquanCqMa"></select>
+                <span asp-validation-for="CoquanCqMa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KyluatcbKlcbMa" class="control-label"></label>
+                <select asp-for="KyluatcbKlcbMa" class="form-control" asp-items="ViewBag.KyluatcbKlcbMa"></select>
+                <span asp-validation-for="KyluatcbKlcbMa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KhenthuongcbKtcbMa" class="control-label"></label>
+                <select asp-for="KhenthuongcbKtcbMa" class="form-control" asp-items="ViewBag.KhenthuongcbKtcbMa"></select>
+                <span asp-validation-for="KhenthuongcbKtcbMa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

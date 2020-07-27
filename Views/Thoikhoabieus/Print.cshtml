@@ -1,0 +1,36 @@
+@model QLTHPT.Models.Thoikhoabieu
+
+@{
+    ViewData["Title"] = "Print";
+    Layout = null;
+}
+
+<html>
+<head>
+	<link href="~/mystyle.css" rel="stylesheet" />
+</head>
+<style>
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        }
+    p{
+        margin-top: 10%;
+    }
+</style>
+
+<body onload="window.print()">
+	<div class="book">
+        <div class="page">
+            <div class="subpage">
+                <h2>THỜI KHÓA BIỂU</h2>
+                <p>Mã lớp: @Model.LopLopMa | Giáo viên phụ trách: @Model.CanboCbMa</p>
+                <p>Học kỳ: @Model.HockyHkMa</p>
+                <p>Thứ: @Model.ThuThuMa</p>
+                <p>Tiết học: @Model.TiethocThMa : Môn học: @Model.MonhocMhMa</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
